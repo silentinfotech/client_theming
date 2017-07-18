@@ -59,7 +59,7 @@ public:
 
 #ifndef TOKEN_AUTH_ONLY
     QColor wizardHeaderBackgroundColor() const {
-        return QColor("#0082c9");
+        return QColor("#2d2c34");
     }
 
     QColor wizardHeaderTitleColor() const {

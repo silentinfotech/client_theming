@@ -8,7 +8,7 @@ su - user << EOF
   cd build-win32
   ../client/admin/win/download_runtimes.sh
   cmake -DCMAKE_TOOLCHAIN_FILE=../client/admin/win/Toolchain-mingw32-openSUSE.cmake\
-  -DWITH_CRASHREPORTER=ON \
+  -DWITH_CRASHREPORTER=OFF \
   -DOEM_THEME_DIR=/home/user/griddrivetheme \
   -DMIRALL_VERSION_SUFFIX= \
   -DMIRALL_VERSION_BUILD=1 \
